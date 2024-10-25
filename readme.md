@@ -34,7 +34,13 @@ Este projeto visa criar um assistente de personal trainer automatizado que ajuda
 
 ---
 
-## 💪 Biotipos Corporais
+## Como utilizar o prompt
+
+---
+
+## Glossário
+
+### 💪 Biotipos Corporais
 
 A primeira regra para personalizar o treino é determinar o biotipo corporal do usuário. Existem três biotipos principais:
 
@@ -46,21 +52,21 @@ A primeira regra para personalizar o treino é determinar o biotipo corporal do 
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src=".github/assets/ectomorph.jpg" width="50%" height="50%">
+      <img src=".github/assets/ectomorph.webp" width="50%" height="50%">
     </td>
     <td><strong>Ectomorfo</strong></td>
     <td>Corpo mais magro, difícil ganhar peso e massa muscular.</td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src=".github/assets/mesomorph.jpg" width="50%" height="50%">
+      <img src=".github/assets/mesomorph.webp" width="50%" height="50%">
     </td>
     <td><strong>Mesomorfo</strong></td>
     <td>Corpo naturalmente musculoso, facilidade para ganhar massa muscular e perder gordura.</td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src=".github/assets/endmorph.jpg" width="50%" height="50%">
+      <img src=".github/assets/endomorph.webp" width="50%" height="50%">
     </td>
     <td><strong>Endomorfo</strong></td>
     <td>Corpo com tendência a acumular gordura, maior dificuldade em perder peso.</td>
@@ -71,7 +77,7 @@ A primeira regra para personalizar o treino é determinar o biotipo corporal do 
 
 ---
 
-## 📅 Dias Disponíveis para Treino
+### 📅 Dias Disponíveis para Treino
 
 A segunda regra é determinar quantos dias por semana o usuário tem disponível para treinar. Dependendo do número de dias, o treino sugerido pode variar:
 
@@ -87,7 +93,7 @@ A segunda regra é determinar quantos dias por semana o usuário tem disponível
 
 ---
 
-## 🏋️ Tipos de Exercícios
+### 🏋️ Tipos de Exercícios
 
 A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão algumas categorias com exemplos:
 
@@ -98,6 +104,22 @@ A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão 
 | <img src=".github/assets/barr.png" width="50%" height="50%">     | **Peso Livre**     | Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente. |
 | <img src=".github/assets/cardio.png" width="50%" height="50%">   | **Cardio**         | Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.                     |
 | <img src=".github/assets/hiit.png" width="50%" height="50%">     | **HIIT**           | Treinos intervalados de alta intensidade, ótimos para queima de gordura.                                      |
+
+---
+
+### Nível de atividade física
+
+De acordo com a OMS, pessoas adultas devem praticar alguma atividade física moderada por 300 minutos semanais ou fazer 150 minutos por semana de atividade física intensa (desde que não haja contraindicação, claro).
+
+Como saber se a atividade física é moderada ou intensa:
+
+Se a respiração e batimentos cardíacos estão razoavelmente acelerados, mas a pessoa consegue manter uma conversa enquanto se exercita, a atividade é provavelmente moderada. Exemplos: caminhada, ciclismo leve, ioga leve, dança.
+
+Se os batimentos cardíacos aceleram consideravelmente e a respiração está muito rápida e difícil a ponto de não permitir uma conversa, é provavelmente uma atividade intensa. Exemplos: musculação, corrida, natação, futebol, basquete, vôlei, ciclismo acelerado, ioga intensa.
+
+Ou seja, não é qualquer atividade física que conta, pois descer um único lance de escadas, andar por uma curta distância, realizar atividades que não exijam um esforço mínimo ou praticar atividades que demandam esforço, mas são feitas esporadicamente e por pouquíssimo tempo são importantes contra o sedentarismo, mas não valem para o cálculo da OMS. Lembre-se: é preciso ter regularidade.
+
+Saiba mais detalhes no G1: ["Calculadora da atividade física: descubra se você se exercita o suficiente e entenda os impactos na memória e concentração"](https://g1.globo.com/educacao/enem/2023/noticia/2023/10/07/calculadora-da-atividade-fisica-descubra-se-voce-se-exercita-o-suficiente-e-entenda-os-impactos-na-memoria-e-concentracao.ghtml)
 
 ---
 
