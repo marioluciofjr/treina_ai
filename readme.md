@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="300px" src=".github/assets/logo_2.png">
+    <img width="400px" src=".github/assets/logotipo.png">
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 <p align="center">
   <h3 align="center">🏋️‍♂️ Assistente de Personal Trainer - Gerador de Treino Ideal</h3>
-Este projeto é um desafio de Prompt Engineer, onde o objetivo é criar um prompt que ajuda a montar o treino ideal para cada combinação de fatores, como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente de personal trainer gerado por esse prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário.
+Este projeto é um desafio de Prompt Engineer do Bootcamp "Engenharia de Prompts na AWS com Claude", da DIO, onde o objetivo é criar um prompt que ajuda a montar o treino ideal para cada combinação de fatores, como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente de personal trainer gerado por esse prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário.
 O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 </p>
 
