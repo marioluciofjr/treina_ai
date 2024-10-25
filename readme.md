@@ -17,15 +17,19 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 
 ## Índice
 
-- [Índice](#-índice)
-- [Introdução](#-introdução)
-- [Como utilizar o prompt](#-como-utilizar-o-prompt)
-- [Biotipos Corporais](#-biotipos-corporais)
-- [Dias Disponíveis para Treino](#-dias-disponíveis-para-treino)
-- [Tipos de Exercícios](#️-tipos-de-exercícios)
-- [Regras de negócio](#️-regras-de-negócio)
-- [Material de Apoio](#-material-de-apoio)
-- [Prompt de Resposta Proposto](#-prompt-de-resposta-proposto)
+- [Introdução](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#introdu%C3%A7%C3%A3o)
+- [Como utilizar o prompt](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#como-utilizar-o-prompt)
+- [Estrutura do prompt](https://github.com/marioluciofjr/treina_ai/edit/main/readme.md#estrutura-do-prompt)
+- [Glossário](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#gloss%C3%A1rio)
+    - [Biotipos corporais](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#biotipos-corporais)
+    - [Dias disponíveis para treino](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#dias-dispon%C3%ADveis-para-treino)
+    - [Tipos de exercícios](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#tipos-de-exerc%C3%ADcios)
+    - [Nível de atividade física](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#n%C3%ADvel-de-atividade-f%C3%ADsica)
+- [Regras de negócio](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#regras-de-neg%C3%B3cio-para-criar-o-plano-de-treino)
+- [Material de Apoio](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#material-de-apoio)
+- [Prompt de resposta](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#prompt-de-resposta-proposto)
+- [Contribuições](https://github.com/marioluciofjr/treina_ai/edit/main/readme.md#contribui%C3%A7%C3%B5es)
+- [Contato](https://github.com/marioluciofjr/treina_ai/edit/main/readme.md#contato)
 
 ---
 
@@ -44,9 +48,20 @@ Você pode utilizar de duas formas:
 
 ---
 
+## Estrutura do prompt
+
+O prompt é dividido em 4 partes e utiliza as técnicas de Few-shot e Chain-of-thought como engenharia de prompt: 
+
+1. System Instrucions - tem a intenção de fornecer instruções de como o modelo de linguagem deve se comportar;
+2. Glossário - explica detalhes sobre os tipos de exercício e níveis de atividade física segundo a OMS;
+3. Coleta de informações - são 8 blocos de perguntas para entender melhor sobre a pessoa usuária do prompt, avaliando biotipo, prática atual de exercícios, disponibilidade para treinar, histórico de saúde, hábitos alimentares, estilo de vida e objetivo;
+4. Análise e planejamento - vai analisar se o contexto da pessoa usuária corresponde a um nível moderado ou intenso de exercícios, bem como estruturar o plano de treino ideal.
+
+---
+
 ## Glossário
 
-### Biotipos Corporais
+### Biotipos corporais
 
 A primeira regra para personalizar o treino é determinar o biotipo corporal do usuário. Existem três biotipos principais:
 
@@ -83,7 +98,7 @@ A primeira regra para personalizar o treino é determinar o biotipo corporal do 
 
 ---
 
-### Dias Disponíveis para Treino
+### Dias disponíveis para treino
 
 A segunda regra é determinar quantos dias por semana o usuário tem disponível para treinar. Dependendo do número de dias, o treino sugerido pode variar:
 
@@ -99,21 +114,21 @@ A segunda regra é determinar quantos dias por semana o usuário tem disponível
 
 ---
 
-### Tipos de Exercícios
+### Tipos de exercícios
 
 A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão algumas categorias com exemplos:
 
 | **Imagem**                                                       | **Tipo de Treino** | **Descrição**                                                                                                 |
 | ---------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------- |
-| <img src=".github/assets/dumbells.png" width="50%" height="50%"> | **Funcional**      | Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.                                |
-| <img src=".github/assets/4760665.png" width="50%" height="50%">  | **Maquinário**     | Exercícios feitos em máquinas, com foco em isolar grupos musculares.                                          |
-| <img src=".github/assets/barr.png" width="50%" height="50%">     | **Peso Livre**     | Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente. |
-| <img src=".github/assets/cardio.png" width="50%" height="50%">   | **Cardio**         | Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.                     |
-| <img src=".github/assets/hiit.png" width="50%" height="50%">     | **HIIT**           | Treinos intervalados de alta intensidade, ótimos para queima de gordura.                                      |
+| <img src=".github/assets/funcional.jpg" width="50%" height="50%"> | **Funcional**      | Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.                                |
+| <img src=".github/assets/maquinário.jpg" width="50%" height="50%">  | **Maquinário**     | Exercícios feitos em máquinas, com foco em isolar grupos musculares.                                          |
+| <img src=".github/assets/peso_livre.jpg" width="50%" height="50%">     | **Peso Livre**     | Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente. |
+| <img src=".github/assets/cardio.jpg" width="50%" height="50%">   | **Cardio**         | Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.                     |
+| <img src=".github/assets/hiit.jpg" width="50%" height="50%">     | **HIIT**           | Treinos intervalados de alta intensidade, ótimos para queima de gordura.                                      |
 
 ---
 
-### Nível de atividade física
+### Níveis de atividade física
 
 De acordo com a OMS, pessoas adultas devem praticar alguma atividade física moderada por 300 minutos semanais ou fazer 150 minutos por semana de atividade física intensa (desde que não haja contraindicação, claro).
 
@@ -140,7 +155,7 @@ Saiba mais detalhes no G1: ["Calculadora da atividade física: descubra se você
 
 ---
 
-## Material de Apoio
+## Material de apoio
 
 Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor o projeto e as práticas de prompt engineering:
 
@@ -149,6 +164,26 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 
 ---
 
-## Prompt de Resposta Proposto
+## Prompt de resposta
 
 [Prompt - Plano de Treino](https://github.com/marioluciofjr/treina_ai/tree/main/prompt)
+
+---
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você tem sugestões para melhorar este projeto, sinta-se à vontade para criar um fork do repositório, fazer suas alterações e enviar um pull request.
+
+---
+
+## Contato
+
+Mário Lúcio - Prazo Certo®
+
+<div>  	
+  <a href="https://www.linkedin.com/in/marioluciofjr" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> 
+  <a href = "mailto:marioluciofjr@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://prazocerto.me/contato" target="_blank"><img src="https://img.shields.io/badge/prazocerto.me/contato-230023?style=for-the-badge&logo=wordpress&logoColor=white"></a>
+  
+</div>
+
