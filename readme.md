@@ -19,7 +19,7 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 
 - [Introdução](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#introdu%C3%A7%C3%A3o)
 - [Como utilizar o prompt](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#como-utilizar-o-prompt)
-- [Estrutura do prompt](https://github.com/marioluciofjr/treina_ai/edit/main/readme.md#estrutura-do-prompt)
+- [Estrutura do prompt](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#estrutura-do-prompt)
 - [Glossário](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#gloss%C3%A1rio)
     - [Biotipos corporais](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#biotipos-corporais)
     - [Dias disponíveis para treino](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#dias-dispon%C3%ADveis-para-treino)
