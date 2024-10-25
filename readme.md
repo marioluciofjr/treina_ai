@@ -28,8 +28,8 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 - [Regras de negócio](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#regras-de-neg%C3%B3cio-para-criar-o-plano-de-treino)
 - [Material de Apoio](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#material-de-apoio)
 - [Prompt de resposta](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#prompt-de-resposta)
-- [Contribuições](https://github.com/marioluciofjr/treina_ai/edit/main/readme.md#contribui%C3%A7%C3%B5es)
-- [Contato](https://github.com/marioluciofjr/treina_ai/edit/main/readme.md#contato)
+- [Contribuições](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#contribui%C3%A7%C3%B5es)
+- [Contato](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#contato)
 
 ---
 
