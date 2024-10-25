@@ -24,7 +24,7 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
     - [Biotipos corporais](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#biotipos-corporais)
     - [Dias disponíveis para treino](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#dias-dispon%C3%ADveis-para-treino)
     - [Tipos de exercícios](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#tipos-de-exerc%C3%ADcios)
-    - [Nível de atividade física](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#n%C3%ADvel-de-atividade-f%C3%ADsica)
+    - [Nível de atividade física](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#n%C3%ADveis-de-atividade-f%C3%ADsica)
 - [Regras de negócio](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#regras-de-neg%C3%B3cio-para-criar-o-plano-de-treino)
 - [Material de Apoio](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#material-de-apoio)
 - [Prompt de resposta](https://github.com/marioluciofjr/treina_ai/blob/main/readme.md#prompt-de-resposta-proposto)
