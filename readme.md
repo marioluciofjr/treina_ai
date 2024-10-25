@@ -10,25 +10,26 @@
 </p>
 
 <p align="center">
-  <h3 align="center">🏋️‍♂️ Assistente de Personal Trainer - Gerador de Treino Ideal</h3>
+  <h3 align="center">Assistente de Personal Trainer - Gerador de Treino Ideal</h3>
 Este projeto é um desafio de Prompt Engineer do Bootcamp "Engenharia de Prompts na AWS com Claude", da DIO, onde o objetivo é criar um prompt que ajuda a montar o treino ideal para cada combinação de fatores, como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente de personal trainer gerado por esse prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário.
 O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 </p>
 
-## 📋 Índice
+## Índice
 
-- [📋 Índice](#-índice)
-- [📝 Introdução](#-introdução)
-- [💪 Biotipos Corporais](#-biotipos-corporais)
-- [📅 Dias Disponíveis para Treino](#-dias-disponíveis-para-treino)
-- [🏋️ Tipos de Exercícios](#️-tipos-de-exercícios)
-- [🛠️ Regras de negócio](#️-regras-de-negócio)
-- [📖 Material de Apoio](#-material-de-apoio)
-- [🎯 Prompt de Resposta Proposto](#-prompt-de-resposta-proposto)
+- [Índice](#-índice)
+- [Introdução](#-introdução)
+- [Como utilizar o prompt](#-como-utilizar-o-prompt)
+- [Biotipos Corporais](#-biotipos-corporais)
+- [Dias Disponíveis para Treino](#-dias-disponíveis-para-treino)
+- [Tipos de Exercícios](#️-tipos-de-exercícios)
+- [Regras de negócio](#️-regras-de-negócio)
+- [Material de Apoio](#-material-de-apoio)
+- [Prompt de Resposta Proposto](#-prompt-de-resposta-proposto)
 
 ---
 
-## 📝 Introdução
+## Introdução
 
 Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido, e o assistente gerará um plano de treino ideal com base nessas informações.
 
@@ -36,11 +37,16 @@ Este projeto visa criar um assistente de personal trainer automatizado que ajuda
 
 ## Como utilizar o prompt
 
+Você pode utilizar de duas formas: 
+
+1. Copie o prompt do arquivo [plano_de_treino.md](prompt/plano_de_treino.md) e cole no modelo de linguagem de sua preferência.
+2. Faça o download do mesmo arquivo e realize o upload do mesmo em modelos de linguagem multimodais, que conseguem analisar arquivos de diferentes formatos, como o Claude faz.
+
 ---
 
 ## Glossário
 
-### 💪 Biotipos Corporais
+### Biotipos Corporais
 
 A primeira regra para personalizar o treino é determinar o biotipo corporal do usuário. Existem três biotipos principais:
 
@@ -77,7 +83,7 @@ A primeira regra para personalizar o treino é determinar o biotipo corporal do 
 
 ---
 
-### 📅 Dias Disponíveis para Treino
+### Dias Disponíveis para Treino
 
 A segunda regra é determinar quantos dias por semana o usuário tem disponível para treinar. Dependendo do número de dias, o treino sugerido pode variar:
 
@@ -93,7 +99,7 @@ A segunda regra é determinar quantos dias por semana o usuário tem disponível
 
 ---
 
-### 🏋️ Tipos de Exercícios
+### Tipos de Exercícios
 
 A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão algumas categorias com exemplos:
 
@@ -123,7 +129,7 @@ Saiba mais detalhes no G1: ["Calculadora da atividade física: descubra se você
 
 ---
 
-## 🛠️ Regras de negócio (para criar o plano de treino)
+## Regras de negócio (para criar o plano de treino)
 
 1. **Biotipo que a pessoa se identifica**
 2. **Ritmo de treino atual e dias disponíveis**
@@ -134,7 +140,7 @@ Saiba mais detalhes no G1: ["Calculadora da atividade física: descubra se você
 
 ---
 
-## 📖 Material de Apoio
+## Material de Apoio
 
 Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor o projeto e as práticas de prompt engineering:
 
@@ -143,6 +149,6 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 
 ---
 
-## 🎯 Prompt de Resposta Proposto
+## Prompt de Resposta Proposto
 
 [Prompt - Plano de Treino](https://github.com/marioluciofjr/treina_ai/tree/main/prompt)
